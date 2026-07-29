@@ -1,2 +1,19 @@
-# Product-Management-System
-A Spring Boot REST API-based Product Management System that provides CRUD operations for managing products. The application includes product creation, retrieval, updating price and stock details, deletion, category-based search, and price-based filtering with business rule validations.
+# Product Management System
+
+A backend application built using Spring Boot, Spring Data JPA, and MySQL to manage product information efficiently.
+
+## Features
+
+- Create new products
+- Retrieve all products
+- Retrieve product by ID
+- Update product price and stock quantity
+- Delete individual products
+- Delete all products
+- Find products by category
+- Find products with price greater than a given amount
+- Automatic stock availability management
+- Business rule validation:
+  - Price must be positive
+  - Stock quantity cannot be negative
+  - Zero stock automatically sets status as OUT_OF_STOCK
